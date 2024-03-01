@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin: 40px;
+    justify-content: center;
+    background-color: hsl(0, 0%, 81%);
+
+}
+.part-1{
+    margin-left: 40px;
+    background-color: hsl(263, 55%, 52%);
+   width: 600px;
+   margin-top: 20px;
+   padding: 20px;
+
+    .image-borders{
+        border-radius: 100%;
+    .title{
+        display: flex;
+        justify-content: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+    .name{
+        color: hsl(0, 0%, 81%);
+    }
+    .title{
+        color: hsl(0, 0%, 50%);
+    }
+    
+    .heading{
+        color:hsl(217, 19%, 35%);
+
+
+    }
+    .description{
+        color: hsl(0, 0%, 81%);
+    
+    }
+
+    }
+}
+
+.part-2{
+    margin-left: 40px;
+    background-color: hsl(217, 19%, 35%);
+   width: 600px;
+   padding: 20px;
+   margin-top: 20px;
+    .image-borders{
+        border-radius: 100%;
+        border-bottom: 10px;
+    }
+    .name{
+        color: hsl(0, 0%, 50%);
+
+    }
+    .title{
+       color: hsl(210, 46%, 95%)
+    }
+    .heading{
+        color: hsl(0, 0%, 50%);
+
+    }
+    .description{
+        color:hsl(217, 19%, 35%);
+
+    }
+    }
+.part-3{
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 100%);
+   width: 600px;
+   padding: 20px;
+   margin-top: 20px;
+    .image-borders{
+        border-radius: 100%;
+    }
+    .name{
+        color: hsl(0, 0%, 50%);
+
+    }
+    .title{
+        color: hsl(0, 0%, 50%);
+    }
+    .heading{
+        color:hsl(217, 19%, 35%);
+
+
+    }
+    .description{
+        color:hsl(217, 19%, 35%);
+
+    }
+}
+.part-4{
+    margin-left: 40px;
+    background-color: hsl(219, 29%, 14%);
+   width: 600px;
+   padding: 20px;
+   margin-top: 20px;
+    .image-borders{
+        border-radius: 100%;
+    }
+    .name{
+        color: hsl(0, 0%, 50%);
+
+    }
+    .title{
+        color: hsl(0, 0%, 50%);
+    }
+    .heading{
+        color:hsl(217, 19%, 35%);
+
+
+    }
+    .description{
+        color:hsl(217, 19%, 35%);
+
+    }
+}
+.part-5{
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 100%);
+   width: 600px;
+   padding: 20px;
+   margin-top: 20px;
+    .image-borders{
+        border-radius: 100%;
+    }
+    .name{
+        color: hsl(0, 0%, 50%);
+
+    }
+    .title{
+        color: hsl(0, 0%, 50%);
+    }
+    .heading{
+        color:hsl(217, 19%, 35%);
+
+
+    }
+    .description{
+        color:hsl(217, 19%, 35%);
+
+    }
+}
