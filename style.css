@@ -6,144 +6,96 @@
 .body{
     margin: 40px;
     justify-content: center;
-    background-color: hsl(0, 0%, 81%);
-
+    background-color: hsl(0, 0%, 100%);
 }
-.part-1{
-    margin-left: 40px;
-    background-color: hsl(263, 55%, 52%);
-   width: 600px;
-   margin-top: 20px;
-   padding: 20px;
 
+.wrapper{
     .image-borders{
         border-radius: 100%;
-    .title{
+    }
+    .details{
         display: flex;
-        justify-content: 1fr 1fr;
-        margin-bottom: 10px;
+        gap: 20px;
     }
     .name{
         color: hsl(0, 0%, 81%);
     }
+    .name-1{
+        color:hsl(217, 19%, 50%);
+    }
     .title{
         color: hsl(0, 0%, 50%);
     }
-    
+    .title-1{
+        color: hsl(0, 0%, 50%);
+    }
     .heading{
+        color: hsl(0, 0%, 81%);
+    }
+    .heading-1{
         color:hsl(217, 19%, 35%);
-
-
     }
     .description{
         color: hsl(0, 0%, 81%);
-    
     }
+    .description-1{
+        color:hsl(217, 19%, 50%);
+    }
+}
 
-    }
+.grp-1{
+    display: flex;
+}
+.grp-2{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+}
+.part-1{
+    margin-left: 40px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 500px;
+   margin-top: 20px;
+   padding: 20px;  
 }
 
 .part-2{
     margin-left: 40px;
     background-color: hsl(217, 19%, 35%);
-   width: 600px;
+    border-radius: 10px;
+    width: 250px;
    padding: 20px;
-   margin-top: 20px;
-    .image-borders{
-        border-radius: 100%;
-        border-bottom: 10px;
-    }
-    .name{
-        color: hsl(0, 0%, 50%);
-
-    }
-    .title{
-       color: hsl(210, 46%, 95%)
-    }
-    .heading{
-        color: hsl(0, 0%, 50%);
-
-    }
-    .description{
-        color:hsl(217, 19%, 35%);
-
-    }
-    }
+   margin-top: 20px;  
+}
 .part-3{
     margin-left: 40px;
-    background-color: hsl(0, 0%, 100%);
-   width: 600px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    width: 260px;
    padding: 20px;
-   margin-top: 20px;
-    .image-borders{
-        border-radius: 100%;
-    }
-    .name{
-        color: hsl(0, 0%, 50%);
-
-    }
-    .title{
-        color: hsl(0, 0%, 50%);
-    }
-    .heading{
-        color:hsl(217, 19%, 35%);
-
-
-    }
-    .description{
-        color:hsl(217, 19%, 35%);
-
-    }
+   margin-top: 20px;  
 }
 .part-4{
     margin-left: 40px;
     background-color: hsl(219, 29%, 14%);
-   width: 600px;
+    border-radius: 10px;
+    width: 530px;
    padding: 20px;
    margin-top: 20px;
-    .image-borders{
-        border-radius: 100%;
-    }
-    .name{
-        color: hsl(0, 0%, 50%);
-
-    }
-    .title{
-        color: hsl(0, 0%, 50%);
-    }
-    .heading{
-        color:hsl(217, 19%, 35%);
-
-
-    }
-    .description{
-        color:hsl(217, 19%, 35%);
-
-    }
 }
 .part-5{
     margin-left: 40px;
-    background-color: hsl(0, 0%, 100%);
-   width: 600px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    width: 250px;
    padding: 20px;
    margin-top: 20px;
-    .image-borders{
-        border-radius: 100%;
-    }
-    .name{
-        color: hsl(0, 0%, 50%);
+}
 
-    }
-    .title{
-        color: hsl(0, 0%, 50%);
-    }
-    .heading{
-        color:hsl(217, 19%, 35%);
-
-
-    }
-    .description{
-        color:hsl(217, 19%, 35%);
-
+@media screen and (max-width:375px){
+    .grp-1{
+        display: grid;
     }
 }
