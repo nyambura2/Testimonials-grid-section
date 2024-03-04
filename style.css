@@ -58,7 +58,10 @@
     border-radius: 10px;
     width: 500px;
    margin-top: 20px;
-   padding: 20px;  
+   padding: 20px; 
+   background-image: url(images/bg-pattern-quotation.svg);
+   background-repeat: no-repeat;
+   background-position: top right; 
 }
 
 .part-2{
@@ -98,4 +101,54 @@
     .grp-1{
         display: grid;
     }
+.wrapper{
+    display: grid;
+}
+.grp-2{
+    display: grid;
+}
+.part-1{
+    margin-left: 40px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 300px;
+   margin-top: 20px;
+   padding: 20px; 
+   background-image: url(images/bg-pattern-quotation.svg);
+   background-repeat: no-repeat;
+   background-position: top right; 
+}
+.part-2{
+    margin-left: 40px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 300px;
+   padding: 20px;
+   margin-top: 20px;  
+}
+.part-3{
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    width: 300px;
+   padding: 20px;
+   margin-top: 20px;  
+}
+.part-4{
+    margin-left: 40px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 300px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.part-5{
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    width: 300px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
 }
